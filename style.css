@@ -71,6 +71,15 @@ button:hover{
     
 }
 
+.cameraclick{
+    position: relative;
+    top: 231px;
+    left: 480px;
+    cursor: pointer;
+}
+
+    
+
 .bottom-nev{
     display:flex;
     justify-content: space-between;
@@ -149,4 +158,39 @@ button:hover{
 .s3:hover{
     opacity: 0.6;
     cursor: pointer;
+}
+
+.photos4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -125px;
+    cursor: pointer;
+    
+}
+
+.w1img, .w2img, .w3img, .w4img{
+    border: 1px solid black;
+    padding: 10px 10px;
+    background-color: lightcyan;
+    height: 350px;
+    
+    /* width: 50%; */
+    /* height: 50%; */
+}
+.w1img:hover{
+    opacity: 0.8;
+    background-color: rgba(0, 0, 0, 0.534);
+}
+.w2img:hover{
+    opacity: 0.8;
+    background-color:rgba(0, 0, 0, 0.534);
+}
+.w3img:hover{
+    opacity: 0.8;
+    background-color: rgba(0, 0, 0, 0.534);
+}
+.w4img:hover{
+    opacity: 0.8;
+    background-color: rgba(0, 0, 0, 0.534);
 }
