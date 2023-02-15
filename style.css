@@ -1,5 +1,5 @@
 body{
-
+margin: 0px ;
     font-family:Arial, Helvetica, sans-serif;
 }
 ul{
@@ -205,12 +205,21 @@ button:hover{
     margin-left: 282px;
     margin-right: 282px;
     
+
+    
 }
 
 .testimonial-grid1{
         text-align: center;
     grid-column-start: 1;
     grid-column-end: 4;
+    color: rgba(0, 0, 0, 0.712);
+}
+
+.testimonial-grid1:hover{
+    cursor: pointer;
+    color: #000000;
+    opacity: 0.9;
 }
 
 .testimonial-grid2, .testimonial-grid3, .testimonial-grid4{
@@ -220,6 +229,8 @@ button:hover{
     flex-direction: column;
     text-align: center;
     margin-bottom: 5em;
+    color: rgba(0, 0, 0, 0.712);
+   
 }
 .clientimg{
     border: 0px solid transparent;
@@ -238,12 +249,99 @@ button:hover{
 .testimonial-grid2:hover{
     cursor: pointer;
     opacity: 0.9;
+    color: #000000;
 }
 .testimonial-grid3:hover{
     cursor: pointer;
     opacity: 0.9;
+    color: #000000;
 }
 .testimonial-grid4:hover{
     cursor: pointer;
     opacity: 0.9;
+    color: #000000;
+}
+
+.footer-header{
+    display: flex;
+    justify-content: center;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-left: 282px;
+    margin-right:282px;
+    background-color: rgba(0, 0, 0, 0.550);
+    position: absolute;
+}
+
+.bottom-grid{
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: rgba(0, 0, 0, 0.712);
+    padding-top: 7em;
+    color: #fff;
+    padding-bottom: 3em;
+    /* grid-gap:0px 15px; */
+}
+
+.bottom-grid-1, .bottom-grid-2, .bottom-grid-3, .bottom-grid-4{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    
+}
+.bottom-grid-1{
+
+margin-left: 282px;
+
+}
+
+.bottom-grid-4{
+    margin-right:282px;
+}
+.bottom-grid-1st{
+    text-align: left;
+    font-size: 15px;
+    font-weight: 50;
+}
+
+.bottom-grid-p{
+    text-align: left;
+    font-size: 12px;
+    font-weight: 50;
+}
+.bottom-grid-p:hover{
+    cursor: pointer;
+    color: black;
+}
+.bottom-grid-2-list{
+   
+    font-size: 12px;
+    padding-left: 0px;
+    font-weight: 50;
+}
+.bottom-grid-3-list{
+   
+    font-size: 12px;
+    padding-left: 0px;
+    font-weight: 50;
+}
+
+.bottom-data-p{
+    text-align: center;
+    font-size: 10px;
+    color: black;
+    position: absolute;
+    top:2320px;
+    left: 600px
+}
+
+
+.bottom-grid-2 li:hover{
+    cursor: pointer;
+    color: #000000  ;
+}
+.bottom-grid-3 li:hover{
+    cursor: pointer;
+    color: #000000  ;
 }
