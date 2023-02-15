@@ -99,7 +99,7 @@ button:hover{
 
 .bottom-button-click{
     background-color: aqua;
-    color: white;
+    color: black;
     border: 1px solid aqua;
     margin: 12px 30px;
     padding: 8px 8px;
@@ -193,4 +193,57 @@ button:hover{
 .w4img:hover{
     opacity: 0.8;
     background-color: rgba(0, 0, 0, 0.534);
+}
+
+
+
+.testimonial-grid{
+    display: grid;
+    grid-gap: 40px 27px;
+    grid-template-columns: auto auto auto ;
+    margin-top: 5em;
+    margin-left: 282px;
+    margin-right: 282px;
+    
+}
+
+.testimonial-grid1{
+        text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.testimonial-grid2, .testimonial-grid3, .testimonial-grid4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 5em;
+}
+.clientimg{
+    border: 0px solid transparent;
+    border-radius: 50%;
+}
+
+.testem{
+    font-weight: 100;
+    font-size: 12px;
+}
+
+.testimonial-grid2-3, .testimonial-grid3-3, .testimonial-grid4-3{
+    font-size: 13px;
+}
+
+.testimonial-grid2:hover{
+    cursor: pointer;
+    opacity: 0.9;
+}
+.testimonial-grid3:hover{
+    cursor: pointer;
+    opacity: 0.9;
+}
+.testimonial-grid4:hover{
+    cursor: pointer;
+    opacity: 0.9;
 }
